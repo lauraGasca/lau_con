@@ -1,12 +1,14 @@
 <?php
 
-Route::get('/', ['as' => 'home', 'uses' =>'SistemaController@getIndex']);
-Route::get('nosotros', ['as' => 'home', 'uses' =>'SistemaController@getNosotros']);
-Route::get('servicios', ['as' => 'home', 'uses' =>'SistemaController@getServicios']);
-Route::get('informacion', ['as' => 'home', 'uses' =>'SistemaController@getInformacion']);
-Route::get('convocatorias', ['as' => 'home', 'uses' =>'SistemaController@getConvocatorias']);
-Route::get('contacto', ['as' => 'home', 'uses' =>'SistemaController@getContacto']);
-Route::post('contacto', ['as' => 'home', 'uses' =>'SistemaController@postContacto']);
+Route::get('/', ['as' => 'home', 'uses' =>'SistemaController@index']);
+Route::get('nosotros', ['as' => 'home', 'uses' =>'SistemaController@nosotros']);
+Route::get('servicio/{servicio}/{nombre}', ['as' => 'servicio', 'uses' =>'SistemaController@servicio']);
+Route::get('servicios', ['as' => 'home', 'uses' =>'SistemaController@servicios']);
+Route::get('informacion', ['as' => 'home', 'uses' =>'SistemaController@informacion']);
+Route::get('convocatorias', ['as' => 'home', 'uses' =>'SistemaController@convocatorias']);
+Route::get('convocatoria/{convocatoria}/{nombre}', ['as' => 'home', 'uses' =>'SistemaController@convocatoria']);
+Route::get('contacto', ['as' => 'home', 'uses' =>'SistemaController@contacto']);
+Route::post('contacto', ['as' => 'home', 'uses' =>'SistemaController@correo']);
 
 //Funcion para mostrar cuando una pagina no se encuentra
 App::missing(function($exception)

@@ -4,47 +4,47 @@ class SistemaController extends BaseController
 {
     protected $layout = 'layout';
     
-	public function getIndex()
+	public function index()
 	{
 	    $this->layout->content = View::make('Consorcio.inicio');
 	}
 	
-	public function getNosotros()
+	public function nosotros()
 	{
 	    $this->layout->content = View::make('Consorcio.nosotros');
 	}
 	
-	public function getServicios()
+	public function servicios()
 	{
 	    $this->layout->content = View::make('Consorcio.servicios');
 	}
 	
-	public function getServicio($servicio,$nombre)
+	public function servicio($servicio,$nombre)
 	{
 	    $this->layout->content = View::make('Consorcio.servicio',compact('servicio'));
 	}
 
-	public function getInformacion()
+	public function informacion()
 	{
 		$this->layout->content = View::make('Consorcio.informacion');
 	}
 	
-	public function getConvocatorias()
+	public function convocatorias()
 	{
 	    $this->layout->content = View::make('Consorcio.convocatorias');
 	}
 	
-	public function getConvocatoria($convocatoria, $nombre)
+	public function convocatoria($convocatoria, $nombre)
 	{
 	    $this->layout->content = View::make('Consorcio.convocatoria',compact('convocatoria'));
 	}
 	
-	public function getContacto()
+	public function contacto()
 	{
 	    $this->layout->content = View::make('Consorcio.contacto');
 	}
 	
-	public function postContacto()
+	public function correo()
 	{
 	    $rules = [
 			"name"   		=>	'required|min:3|max:100',
