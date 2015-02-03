@@ -4,7 +4,7 @@ Route::get('/', ['as' => 'home', 'uses' =>'SistemaController@index']);
 Route::get('nosotros', ['as' => 'home', 'uses' =>'SistemaController@nosotros']);
 Route::get('servicio/{servicio}/{nombre}', ['as' => 'servicio', 'uses' =>'SistemaController@servicio']);
 Route::get('servicios', ['as' => 'home', 'uses' =>'SistemaController@servicios']);
-Route::get('informacion', ['as' => 'home', 'uses' =>'SistemaController@informacion']);
+Route::get('glosario', ['as' => 'home', 'uses' =>'SistemaController@glosario']);
 Route::get('convocatorias', ['as' => 'home', 'uses' =>'SistemaController@convocatorias']);
 Route::get('convocatoria/{convocatoria}/{nombre}', ['as' => 'home', 'uses' =>'SistemaController@convocatoria']);
 Route::get('contacto', ['as' => 'home', 'uses' =>'SistemaController@contacto']);

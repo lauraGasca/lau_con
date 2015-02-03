@@ -17,11 +17,11 @@
                                    <h1>Convocatorias</h1>
                               </div>
                         </div>
-                        <div class="hgroup_subtitle animated bounceInUp ">
+                        <!--<div class="hgroup_subtitle animated bounceInUp ">
                               <div class="container">
                                    <p>This could be your <strong>News Section</strong> if you like it classic! </p>
                               </div>
-                        </div>
+                        </div>-->
                   </div>
             </div>
        </div>
@@ -45,42 +45,42 @@
                       </thead>
                       <tbody>
                           <tr>
-                              <td>{{ HTML::link('convocatoria/1/pei', 'PEI') }}</td>
+                              <td>{{ HTML::link('convocatoria/1/pei', 'PEI',['target'=>"_blank"]) }}</td>
                               <td>Programa de Estímulos a la Innovación</td>
                               <td><span class="check"></span></td>
                           </tr>
                           <tr>
-                              <td>{{ HTML::link('convocatoria/2/inadem-1-1', 'Inadem 1.1') }}</td>
+                              <td>{{ HTML::link('convocatoria/2/inadem-1-1', 'Inadem 1.1',['target'=>"_blank"]) }}</td>
                               <td>Instituto Nacional del Emprendedor. Convocatoria 1.1</td>
                               <td><span class="check"></span></td>
                           </tr>
                           <tr>
-                              <td>{{ HTML::link('convocatoria/3/Finnovateg', 'Finnovateg') }}</td>
+                              <td>{{ HTML::link('convocatoria/3/Finnovateg', 'Finnovateg',['target'=>"_blank"]) }}</td>
                               <td>Fondo de Innovación Tecnológica del Estado de Guanajuato</td>
                               <td><span class="check"></span></td>
                           </tr>
                           <tr>
-                              <td>{{ HTML::link('convocatoria/4/finnova-ott', 'Finnova OTT') }}</td>
+                              <td>{{ HTML::link('convocatoria/4/finnova-ott', 'Finnova OTT',['target'=>"_blank"]) }}</td>
                               <td>Convocatoria de Bonos para la transferencia y comercialización del conocimiento</td>
                               <td><span class="check"></span></td>
                           </tr>
                           <tr>
-                              <td>{{ HTML::link('convocatoria/5/cdti-conacyt', ' CDTI-Conacyt') }}</td>
+                              <td>{{ HTML::link('convocatoria/5/cdti-conacyt', ' CDTI-Conacyt',['target'=>"_blank"]) }}</td>
                               <td>CONACYT-SENER-SUSTENTABILIDAD ENERGÉTICA-2013-05</td>
                               <td><span class="check"></span></td>
                           </tr>
                           <tr>
-                              <td>{{ HTML::link('convocatoria/6/fit', 'FIT') }}</td>
+                              <td>{{ HTML::link('convocatoria/6/fit', 'FIT',['target'=>"_blank"]) }}</td>
                               <td>Fondo de Innovación Tecnológica</td>
                               <td><span class="check"></span></td>
                           </tr>
                           <tr>
-                              <td>{{ HTML::link('convocatoria/7/sener', 'Sener') }}</td>
+                              <td>{{ HTML::link('convocatoria/7/sener', 'Sener',['target'=>"_blank"]) }}</td>
                               <td>CONACYT-SENER-SUSTENTABILIDAD ENERGÉTICA-2013-05 LABORATORIO DE INNOVACIÓN EN SUSTENTABILIDAD ENERGÉTICA</td>
                               <td><span class="check"></span></td>
                           </tr>
                           <tr>
-                              <td>{{ HTML::link('convocatoria/8/prodiat', 'Prodiat') }}</td>
+                              <td>{{ HTML::link('convocatoria/8/prodiat', 'Prodiat',['target'=>"_blank"]) }}</td>
                               <td>PROGRAMA PARA EL DESARROLLO TECNOLÓGICO DE LA INDUSTRIA</td>
                               <td><span class="check"></span></td>
                           </tr>

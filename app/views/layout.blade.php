@@ -53,9 +53,9 @@
 							@show
 							>{{link_to('servicios', 'Servicios')}}</li>
 							<li
-							@section('informacion')
+							@section('glosario')
 							@show
-							>{{link_to('informacion', 'Informaci&oacute;n')}}</li>
+							>{{link_to('glosario', 'Glosario')}}</li>
 							<li
 							@section('convocatirias')
 							@show
@@ -79,26 +79,7 @@
 					<section class="twitter_feed_wrapper skincolored_section">
 						<div class="container">
 							<div class="row">
-								<div class="twitter_feed_icon wow fadeInDown"><a href="https://twitter.com/PlethoraThemes"><i class="fa fa-twitter"></i></a></div>
-								<div id="twitter_flexslider" class="flexslider">
-									<ul class="slides">
-										<li class="item">
-											<blockquote>
-												<p> This Clean Flexible Multipurpose Bootstrap 3.1.1 HTML5 Template will soon become a Wordpress theme with great support! <a href="#">http://unhub.com/LIot</a> — Plethora Themes (@plethorathemes) <a href="https://twitter.com/plethorathemes/">April 4 2014</a> </p>
-											</blockquote>
-										</li>
-										<li class="item">
-											<blockquote>
-												<p> 'Game of Thrones' Opening Sequence Reimagined With Social Media http://flip.it/3AiCh  via @mashable </p>
-											</blockquote>
-										</li>
-										<li class="item">
-											<blockquote>
-												<p> SEO expert debunks 5 of the biggest SEO myths @CreativeBloQ http://www.creativebloq.com/business/seo-expert-debunks-5-biggest-seo-myths-21410786 … </p>
-											</blockquote>
-										</li>
-									</ul>
-								</div>
+								<div class="twitter_feed_icon wow fadeInDown"><a target="_blank" href="https://www.facebook.com/consorcio.delconocimiento"><i class="fa fa-facebook"></i></a></div>
 							</div>
 						</div>
 					</section>
@@ -113,34 +94,22 @@
 						</div>
 						<div class="container">
 							<div class="row">
-								<!--<div class="footer_teaser pl_about_us_widget col-md-12" style="text-align:center;">
-									<h3>Contact Details</h3>
-								</div><br><br>-->								
-								<div class="footer_teaser pl_about_us_widget col-sm-4 col-md-4" style="text-align:center;">
+								<div class="footer_teaser pl_about_us_widget col-sm-4 col-md-4" style="text-align:center;"></div>
+								<div class="footer_teaser pl_latest_news_widget col-sm-4 col-md-4" style="text-align:center;">
 									<p>Consorcio del Conocimiento, A.C.<br>
 										Sinaloa #119 Pte. Col. Alameda, Celaya, Gto.
-									</p>
-								</div>
-								<div class="footer_teaser pl_latest_news_widget col-sm-4 col-md-4" style="text-align:center;">
-									<!--<p><i class="fa fa-envelope"></i> contact@example.com</p>-->
+									</p><br/>
 									<p>Telef&oacute;no de oficina</p>
 									<p><i class="fa fa-phone"></i> 01 (461) 61-2-18-73</p>
 								</div>
-								<div class="footer_teaser pl_flickr_widget col-sm-4 col-md-4" id="latest-flickr-images">
-									<div class="footer_social" style="text-align:center; padding:0;">
-									     <div class="social_wrapper">
-											 <a target="_blank" href="https://www.facebook.com/ConocimientoAC"><i class="fa fa-facebook"></i></a>
-											 <a target="_blank" href="https://www.facebook.com/consorcio.delconocimiento"><i class="fa fa-facebook"></i></a>
-										 </div>
-									</div>
-								</div>
+								<div class="footer_teaser pl_flickr_widget col-sm-4 col-md-4" id="latest-flickr-images"></div>
 							</div>
 						</div>
 					</section>
 					<div class="copyright">
 						<div class="container">
 							<div class="row">
-							     <div class="col-sm-4 col-md-4">Copyright ©2014 all rights reserved </div>
+							     <div class="col-sm-4 col-md-4">Copyright ©2015 all rights reserved </div>
 							     <div class="col-sm-4 col-md-4"></div>
 							     <div class="text-right col-sm-4 col-md-4">Consorcio del Conocimiento </div>
 							</div>

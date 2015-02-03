@@ -24,7 +24,7 @@ class SistemaController extends BaseController
 	    $this->layout->content = View::make('Consorcio.servicio',compact('servicio'));
 	}
 
-	public function informacion()
+	public function glosario()
 	{
 		$this->layout->content = View::make('Consorcio.informacion');
 	}

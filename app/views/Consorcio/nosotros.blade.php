@@ -36,12 +36,12 @@
                     través de la Formulación de proyectos de <strong>Innovación y Desarrollo Tecnológico,
                     Productivos y de Impacto Ambiental</strong></p>
 
-                    <p>Se crea a mediados del 2009 como una iniciativa del <strong style="color: red;">CONCYTEG</strong> y del
-                    <strong style="color: red;">Consejo Coordinador Empresarial de Celaya</strong>; con la misión clara de propiciar <u>una cultura de
+                    <p>Se crea a mediados del 2009 como una iniciativa del <strong>CONCYTEG</strong> y del
+                    <strong>Consejo Coordinador Empresarial de Celaya</strong>; con la misión clara de propiciar una cultura de
                     innovación en nuestra sociedad, teniendo como herramienta fundamental la <strong>vinculación</strong>
                     entre las empresas y los Centros de investigación e Instituciones de Educación Superior
                     del Estado, como una plataforma para la elaboración de proyectos de innovación y
-                    desarrollo</u> que atiendan las áreas de oportunidad a través de la aplicación novedosa del
+                    desarrollo que atiendan las áreas de oportunidad a través de la aplicación novedosa del
                     conocimiento, contribuyendo así a la consolidación de una sociedad competitiva.</p>
                     <br/>
                     <li>Hemos gestionado desde el 2009 a la fecha 146 proyectos:,</li>

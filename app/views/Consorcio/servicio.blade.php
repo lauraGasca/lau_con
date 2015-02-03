@@ -104,50 +104,5 @@
                 </div>
             </div>
         </div>
-        <!--<br><br><br><br>
-        <div class="container">
-            <h2 class="section_header fancy centered">Otros Servicios</h2>
-            <div class="portfolio_strict row">
-                <div class="col-sm-4 col-md-4">
-                    <div class="service_teaser vertical">
-                            <div class="service_photo">
-                                <a href="{{url('servicio/5/fondos')}}">
-                                    <figure style="background-image:url({{url('images/serv_5.jpg')}})"></figure>
-                                </a>
-                            </div>
-                            <div class="service_details">
-                                <h2>{{ HTML::link('servicio/5/fondos', 'Fondos, fidecomisos y programas') }}</h2>
-                                <p>Un canal de vinculaci&oacute;n con su mercado meta.</p>
-                            </div>
-                       </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="service_teaser vertical">
-                            <div class="service_photo">
-                                <a href="{{url('servicio/5/fondos')}}">
-                                    <figure style="background-image:url({{url('images/serv_5.jpg')}})"></figure>
-                                </a>
-                            </div>
-                            <div class="service_details">
-                                <h2>{{ HTML::link('servicio/5/fondos', 'Fondos, fidecomisos y programas') }}</h2>
-                                <p>Un canal de vinculaci&oacute;n con su mercado meta.</p>
-                            </div>
-                       </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="service_teaser vertical">
-                            <div class="service_photo">
-                                <a href="{{url('servicio/5/fondos')}}">
-                                    <figure style="background-image:url({{url('images/serv_5.jpg')}})"></figure>
-                                </a>
-                            </div>
-                            <div class="service_details">
-                                <h2>{{ HTML::link('servicio/5/fondos', 'Fondos, fidecomisos y programas') }}</h2>
-                                <p>Un canal de vinculaci&oacute;n con su mercado meta.</p>
-                            </div>
-                       </div>
-                </div>
-            </div>
-        </div>-->
     </section>
 @stop

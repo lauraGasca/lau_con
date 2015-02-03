@@ -32,13 +32,9 @@
                 <div class="col-sm-12 col-md-4 horizontal_teaser_left">
                     <h3>SERVICIOS</h3>
                     <p>Solución en Gestión de Fondos de Innovación y Desarrollo Tecnológico, Productivos y de Impacto Ambiental</p>
-                    <p>En el Consorcio del Conocimiento trabajamos con responsabilidad, ofertando servicios de una manera profesional y oportuna, propiciando sinergias entre las empresas, centros de investigaci&oacute;n, de educaci&oacute;n y otros sectores de la sociedad para fomentar la aplicaci&oacute;n innovadora del conocimiento.</p>
-                    <p>Actuamos con honestidad, siendo congruentes con lo que nos comprometemos y hacemos, humildad con equidad y justicia, conservando siempre en nuestro pensamiento el bien com&uacute;n y el compromiso social.</p>
                 </div>
                 <div class="col-sm-12 col-md-8 horizontal_teaser_right">
-                    <!--<figure style="background-image:url(images/portfolio/t4.jpg)"> </figure>-->
                     <div class="twentytwenty-container">
-                        <!--{{ HTML::image('/images/img_before.png','antes') }}-->
                         {{ HTML::image('/images/img_after.jpg','Despues') }}
                     </div>
                 </div>
@@ -58,12 +54,12 @@
                 <div class="col-sm-4 col-md-4">
                     <div class="service_teaser vertical">
                         <div class="service_photo">
-                            <a href="{{url('servicio/1/gestion-proyectos')}}">
+                            <a target="_blank" href="{{url('servicio/1/gestion-proyectos')}}">
                                 <figure style="background-image:url({{url('images/serv_4.jpg')}})"></figure>
                             </a>
                         </div>
                         <div class="service_details">
-                            <h2>{{ HTML::link('servicio/1/gestion-proyectos', 'Gestión de proyectos',['style'=>"color: #FFFFFF;"]) }}</h2>
+                            <h2>{{ HTML::link('servicio/1/gestion-proyectos', 'Gestión de proyectos',['style'=>"color: #FFFFFF;", 'target'=>"_blank"]) }}</h2>
                             <p>Gestión de proyectos de innovación tecnológica en fondos y apoyos gubernamentales existentes a nivel estatal o federal</p>
                         </div>
                     </div>
@@ -71,12 +67,12 @@
                 <div class="col-sm-4 col-md-4">
                     <div class="service_teaser vertical">
                         <div class="service_photo">
-                            <a href="{{url('servicio/2/seguimiento-proyectos-aprobados')}}">
+                            <a target="_blank" href="{{url('servicio/2/seguimiento-proyectos-aprobados')}}">
                                 <figure style="background-image:url({{url('images/serv_5.jpg')}})"></figure>
                             </a>
                         </div>
                         <div class="service_details">
-                            <h2>{{ HTML::link('servicio/2/seguimiento-proyectos-aprobados', 'Seguimiento de proyectos aprovados',['style'=>"color: #FFFFFF;"]) }}</h2>
+                            <h2>{{ HTML::link('servicio/2/seguimiento-proyectos-aprobados', 'Seguimiento de proyectos aprovados',['style'=>"color: #FFFFFF;", 'target'=>"_blank"]) }}</h2>
                             <p>Seguimiento de proyectos aprobados en convocatorias en fondos y apoyos gubernamentales existentes a nivel estatal o federal</p>
                         </div>
                     </div>
@@ -84,12 +80,12 @@
                 <div class="col-sm-4 col-md-4">
                     <div class="service_teaser vertical">
                         <div class="service_photo">
-                            <a href="{{url('servicio/3/generacion-actualización-reniecyt')}}">
+                            <a target="_blank" href="{{url('servicio/3/generacion-actualización-reniecyt')}}">
                                 <figure style="background-image:url({{url('images/serv_1.jpg')}})"></figure>
                             </a>
                         </div>
                         <div class="service_details">
-                            <h2>{{ HTML::link('servicio/3/generacion-actualización-reniecyt', 'Generación y actualización de RENIECYT',['style'=>"color: #FFFFFF;"]) }}</h2>
+                            <h2>{{ HTML::link('servicio/3/generacion-actualización-reniecyt', 'Generación y actualización de RENIECYT',['style'=>"color: #FFFFFF;", 'target'=>"_blank"]) }}</h2>
                             <p>Generación y actualización de Registro Nacional de Instituciones y Empresas Científicas y Tecnológicas (RENIECYT).</p>
                         </div>
                     </div>
@@ -99,36 +95,36 @@
                   <div class="col-sm-4 col-md-4">
                        <div class="service_teaser vertical">
                             <div class="service_photo">
-                                <a href="{{url('servicio/4/valoracion-evaluacion-I-D-I')}}">
+                                <a target="_blank" href="{{url('servicio/4/valoracion-evaluacion-I-D-I')}}">
                                     <figure style="background-image:url({{url('images/serv_4.jpg')}})"></figure>
                                 </a>
                             </div>
                             <div class="service_details">
-                                <h2>{{ HTML::link('servicio/4/valoracion-evaluacion-I-D-I', 'Valoración y Evaluación de Proyectos I+D+I',['style'=>"color: #FFFFFF;"]) }}</h2>
+                                <h2>{{ HTML::link('servicio/4/valoracion-evaluacion-I-D-I', 'Valoración y Evaluación de Proyectos I+D+I',['style'=>"color: #FFFFFF;", 'target'=>"_blank"]) }}</h2>
                             </div>
                        </div>
                   </div>
                   <div class="col-sm-4 col-md-4">
                        <div class="service_teaser vertical">
                             <div class="service_photo">
-                                <a href="{{url('servicio/5/cierre-proyectos-I-D-I')}}">
+                                <a target="_blank" href="{{url('servicio/5/cierre-proyectos-I-D-I')}}">
                                     <figure style="background-image:url({{url('images/serv_5.jpg')}})"></figure>
                                 </a>
                             </div>
                             <div class="service_details">
-                                <h2>{{ HTML::link('servicio/5/cierre-proyectos-I-D-I', 'Cierre de proyectos I+D+I',['style'=>"color: #FFFFFF;"]) }}</h2>
+                                <h2>{{ HTML::link('servicio/5/cierre-proyectos-I-D-I', 'Cierre de proyectos I+D+I',['style'=>"color: #FFFFFF;", 'target'=>"_blank"]) }}</h2>
                             </div>
                        </div>
                   </div>
                   <div class="col-sm-4 col-md-4">
                        <div class="service_teaser vertical">
                             <div class="service_photo">
-                                <a href="{{url('servicio/6/vinculacion-IES-CIs')}}">
+                                <a target="_blank" href="{{url('servicio/6/vinculacion-IES-CIs')}}">
                                     <figure style="background-image:url({{url('images/serv_1.jpg')}})"></figure>
                                 </a>
                             </div>
                             <div class="service_details">
-                                <h2>{{ HTML::link('servicio/6/vinculacion-IES-CIs', 'Vinculación con IES/CIs',['style'=>"color: #FFFFFF;"]) }}</h2>
+                                <h2>{{ HTML::link('servicio/6/vinculacion-IES-CIs', 'Vinculación con IES/CIs',['style'=>"color: #FFFFFF;", 'target'=>"_blank"]) }}</h2>
                                 <p>Vinculación con Institución de Educación superior y Centros de Investigación (IES/CIs)
                                 </p>
                             </div>

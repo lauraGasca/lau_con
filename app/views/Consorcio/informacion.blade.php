@@ -1,4 +1,4 @@
-@section('informacion')
+@section('glosario')
     class="active"
 @stop
 
@@ -8,7 +8,7 @@
             <div class="hgroup">
                 <div class="hgroup_title animated bounceInUp skincolored">
                     <div class="container">
-                        <h1>Informaci&oacute;n</h1>
+                        <h1>Glosario</h1>
                     </div>
                 </div>
                 <div class="hgroup_subtitle animated bounceInUp ">
@@ -36,7 +36,7 @@
                             <li type="decimal"><a href="#proyecto">¿Que es un proyecto de innovación?</a></li>
                             <li type="decimal"><a href="#inovacion">¿Que es innovación?</a></li>
                             <li type="decimal"><a href="#caracteristicas">¿Puedo someter un proyecto?</a></li>
-                            <li type="decimal"><a href="#tutorial">Tutorial Interactivo</a></li>
+                            <li type="decimal"><a href="#tutorial">Proceso</a></li>
                         </ul>
                     </article>
                     <article class="post" >
@@ -124,7 +124,7 @@
                                 La consecuencia de una innovación debe ser un incremento en la utilidad; de lo contrario, NO estamos innovando.</p>
                         </div>
                     </article>
-                    <article class="post" id="tutorial">
+                    <article class="post">
                         <div class="post_header">
                             <h3 class="post_title"><a href="#">Proceso del Consorcio en la Gestión de Proyectos de innovación</a></h3>
                         </div>
@@ -158,9 +158,9 @@
                             </ul>
                         </div>
                     </article>
-                    <article class="post" >
+                    <article class="post" id="tutorial">
                         <div class="post_header">
-                            <h3 class="post_title"><a href="#">Cuales es proceso:</a></h3>Laberinto// juego
+                            <h3 class="post_title"><a href="#">Proceso:</a></h3>
                         </div>
                         <div class="post_content">
                             <ul>
