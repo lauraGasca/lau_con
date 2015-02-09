@@ -37,16 +37,19 @@
     <section class="features_teasers_wrapper">
         <div class="container">
             <div class="row">
-                <div class="feature_teaser col-sm-4 col-md-4"> <img alt="responsive" src="{{url('images/phone-v2.png')}}">
-                    <h3>El consorcio del Conocimiento</h3><br/>
+                <div class="feature_teaser col-sm-4 col-md-4">
+                    <img alt="responsive" src="{{url('images/phone-v2.png')}}">
+                    <h3 style="height: 50px;">El consorcio del Conocimiento</h3>
                     {{link_to('nosotros', 'Nosotros', array('class'=>"btn btn-danger center-block "))}}
                 </div>
-                <div class="feature_teaser col-sm-4 col-md-4"> <img alt="responsive" src="{{url('images/lib-v2.png')}}">
-                    <h3>Nuestra especialidad</h3><br/>
+                <div class="feature_teaser col-sm-4 col-md-4">
+                    <img alt="responsive" src="{{url('images/lib-v2.png')}}">
+                    <h3 style="height: 50px;">Nuestra especialidad</h3>
                     {{link_to('servicios', 'Servicios', array('class'=>"btn btn-danger center-block "))}}
                 </div>
-                <div class="feature_teaser col-sm-4 col-md-4"> <img alt="responsive" src="{{url('images/rocket_trans-v2.png')}}">
-                    <h3>Convocatorias</h3><br/>
+                <div class="feature_teaser col-sm-4 col-md-4">
+                    <img alt="responsive" src="{{url('images/rocket_trans-v2.png')}}">
+                    <h3 style="height: 50px;">Convocatorias</h3>
                     {{link_to('convocatorias', 'Convocatorias', array('class'=>"btn btn-danger center-block "))}}
                 </div>
             </div>
