@@ -1,7 +1,3 @@
-@section('glosario')
-    class="active"
-@stop
-
 @section('encabezado')
     <div class="full_page_photo no_photo">
         <div class="container">

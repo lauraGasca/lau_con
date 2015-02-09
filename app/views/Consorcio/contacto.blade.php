@@ -60,7 +60,7 @@
                                         <span class="message-error">{{$errors->first('email')}}</span>
                                    </div>
                               </div>
-                              <div class="row">
+                              <!--<div class="row">
                                     <div class="col-sm-12 col-md-12">
                                          <label>Sector</label>
                                          {{Form::select('sector', array(null=>'Selecciona', '1' => 'Empresa1', '2' => 'Empresa2', '3' => 'Empresa3', '4' => 'Empresa4', '5' => 'Otro...'), null,array('class'=>'form-control', 'onchange'=>'otro();','id'=>'sector'))}}
@@ -76,7 +76,7 @@
                                          {{Form::text('otrosector', '',array('class'=>'form-control','placeholder'=>'Escriba sector al que pertenece','id'=>'otro_input'))}}
                                          <span class="message-error">{{$errors->first('otrosector')}}</span>
                                     </div>
-                              </div>
+                              </div>-->
                               <div class="row">
                                    <div class="col-sm-12 col-md-12">
                                         <label>Asunto</label>

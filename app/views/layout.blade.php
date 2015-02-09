@@ -53,10 +53,6 @@
 							@show
 							>{{link_to('servicios', 'Servicios')}}</li>
 							<li
-							@section('glosario')
-							@show
-							>{{link_to('glosario', 'Glosario')}}</li>
-							<li
 							@section('convocatirias')
 							@show
 							>{{link_to('convocatorias', 'Convocatorias')}}</li>
@@ -102,7 +98,14 @@
 									<p>Telef&oacute;no de oficina</p>
 									<p><i class="fa fa-phone"></i> 01 (461) 61-2-18-73</p>
 								</div>
-								<div class="footer_teaser pl_flickr_widget col-sm-4 col-md-4" id="latest-flickr-images"></div>
+
+								<div class="footer_teaser pl_flickr_widget col-sm-4 col-md-4" id="latest-flickr-images">
+									<div class="footer_social">
+										<div class="social_wrapper">
+											<a href="{{url('glosario')}}"><i class="fa fa-book"></i></a>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</section>

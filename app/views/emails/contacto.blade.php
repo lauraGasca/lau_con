@@ -27,7 +27,6 @@
       <div class="jumbotron">
       <p><strong>Nombre: </strong>{{$nombre}}</p>
       <p><strong>Correo: </strong>{{$correo}}</p>
-      <p><strong>Sector: </strong>{{$sector}}</p>
       <p><strong>Asunto: </strong>{{$asunto}}</p>
       <p><strong>Mensaje: </strong>{{$mensaje}}</p>
       </div>
