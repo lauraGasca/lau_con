@@ -42,6 +42,7 @@
                     <h3 style="height: 50px;">El consorcio del Conocimiento</h3>
                     {{link_to('nosotros', 'Nosotros', array('class'=>"btn btn-danger center-block "))}}
                 </div>
+
                 <div class="feature_teaser col-sm-4 col-md-4">
                     <img alt="responsive" src="{{url('images/lib-v2.png')}}">
                     <h3 style="height: 50px;">Nuestra especialidad</h3>
