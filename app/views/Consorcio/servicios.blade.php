@@ -55,7 +55,7 @@
                     <div class="service_teaser vertical">
                         <div class="service_photo">
                             <a target="_blank" href="{{url('servicio/1/gestion-proyectos')}}">
-                                <figure style="background-image:url({{url('images/serv_4.jpg')}})"></figure>
+                                {{ HTML::image('images/servicios/1.png','Gestión de proyectos') }}
                             </a>
                         </div>
                         <div class="service_details">
@@ -68,7 +68,7 @@
                     <div class="service_teaser vertical">
                         <div class="service_photo">
                             <a target="_blank" href="{{url('servicio/2/seguimiento-proyectos-aprobados')}}">
-                                <figure style="background-image:url({{url('images/serv_5.jpg')}})"></figure>
+                                {{ HTML::image('images/servicios/2.png','Seguimiento de proyectos aprovados') }}
                             </a>
                         </div>
                         <div class="service_details">
@@ -81,7 +81,7 @@
                     <div class="service_teaser vertical">
                         <div class="service_photo">
                             <a target="_blank" href="{{url('servicio/3/generacion-actualización-reniecyt')}}">
-                                <figure style="background-image:url({{url('images/serv_1.jpg')}})"></figure>
+                                {{ HTML::image('images/servicios/3.png','Generación y actualización de RENIECYT') }}
                             </a>
                         </div>
                         <div class="service_details">
@@ -96,7 +96,7 @@
                        <div class="service_teaser vertical">
                             <div class="service_photo">
                                 <a target="_blank" href="{{url('servicio/4/valoracion-evaluacion-I-D-I')}}">
-                                    <figure style="background-image:url({{url('images/serv_4.jpg')}})"></figure>
+                                    {{ HTML::image('images/servicios/4.png','Valoración y Evaluación de Proyectos I+D+I') }}
                                 </a>
                             </div>
                             <div class="service_details">
@@ -108,7 +108,7 @@
                        <div class="service_teaser vertical">
                             <div class="service_photo">
                                 <a target="_blank" href="{{url('servicio/5/cierre-proyectos-I-D-I')}}">
-                                    <figure style="background-image:url({{url('images/serv_5.jpg')}})"></figure>
+                                    {{ HTML::image('images/servicios/5.png','Cierre de proyectos I+D+I') }}
                                 </a>
                             </div>
                             <div class="service_details">
@@ -120,7 +120,7 @@
                        <div class="service_teaser vertical">
                             <div class="service_photo">
                                 <a target="_blank" href="{{url('servicio/6/vinculacion-IES-CIs')}}">
-                                    <figure style="background-image:url({{url('images/serv_1.jpg')}})"></figure>
+                                    {{ HTML::image('images/servicios/6.png','Vinculación con IES/CIs') }}
                                 </a>
                             </div>
                             <div class="service_details">
