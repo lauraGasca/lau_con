@@ -14,7 +14,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="item" style="background-image: url({{url('images/2.jpg')}})">
+                <li class="item" style="background-image: url({{url('images/2.png')}})">
                     <div class="container">
                         <div class="carousel-caption animated bounceInUp">
                             <h1>Soluci&oacute;n en Gesti&oacute; de Fonfos de Innovaci&oacute; y Dessarrollo Tecnol&oacute;gico Productivos y de Impacto Ambiental</h1>

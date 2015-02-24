@@ -44,18 +44,25 @@
                     desarrollo que atiendan las áreas de oportunidad a través de la aplicación novedosa del
                     conocimiento, contribuyendo así a la consolidación de una sociedad competitiva.</p>
                     <br/>
-                    <li>Hemos gestionado desde el 2009 a la fecha 146 proyectos:,</li>
-                    <p>Tipo de empresas: </p>
-                    <p>Sectores</p>
-                    <p>Tipos de proyectos </p>
+                    <li style="list-style-type: square; padding-left: 20px;">Hemos gestionado desde el 2009 a la fecha 146 proyectos:,</li>
+                    <br/><br/>
+                    <p><strong>Tipo de empresas:</strong> </p>
+                    {{ HTML::image('images/mercado-empresas.png') }}
+                    <br/><br/>
+                    <p><strong>Sectores</strong> </p>
+                    <br/>
+                    <p><strong>Tipos de proyectos</strong> </p>
                     <li>90% de Desarrollo Tecnológico e Innovación</li>
                     <li>6% Productivos</li>
                     <li>4% de Impacto Ambiental</li>
                 </div>
                 <div class="col-sm-12 col-md-8 horizontal_teaser_right">
-                    <h3>Estructura del Consorcio del Conocimiento</h3>
+                    <h3><strong>Estructura del Consorcio del Conocimiento</strong></h3><br/>
+                    {{ HTML::image('images/consejo-estructura.png') }}
+                    <br/><br/>
                     <p>En estructura operativa se encuentra:</p>
-                    <p>Operaci&oacute;n</p>
+                    <br/>
+                    <p><strong>Operaci&oacute;n</strong></p>
                     <p>Contamos con un Consejo Directivo Empresarial conformado
                     empresarios en la región líderes en los sectores económicos
                     y Consejo Técnico conformado por Investigadores
