@@ -10,6 +10,11 @@ Route::get('convocatoria/{convocatoria}/{nombre}', ['as' => 'home', 'uses' =>'Si
 Route::get('contacto', ['as' => 'home', 'uses' =>'SistemaController@contacto']);
 Route::post('contacto', ['as' => 'home', 'uses' =>'SistemaController@correo']);
 
+Route::get('pruebas', function()
+{
+    return View::make('emails.contacto');
+});
+
 //Funcion para mostrar cuando una pagina no se encuentra
 App::missing(function($exception)
 {

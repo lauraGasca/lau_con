@@ -62,7 +62,8 @@ class SistemaController extends BaseController
 				'asunto' => Input::get('asunto'), 'mensaje' => Input::get('mensaje')],
 				function ($message) use ($asunto) {
 					$message->subject($asunto);
-					$message->to('lau_lost@hotmail.com')->cc('lgasca@incubamas.com');
+                    $message->to('lgasca@incubamas.com');
+					$message->to('lau_lost@hotmail.com');
 				}
 			);
 			return Redirect::back()->with(array('confirm' => 'Gracias por contactarnos.'));

@@ -21,12 +21,6 @@
      </div>
 @stop
 @section('contenido')
-    @if(Session::get('confirm'))
-        <script>alert('ok')</script>
-    @endif
-    @if(count($errors)>0)
-        <script>alert('error')</script>
-    @endif
     <div class="container triangles-of-section">
         <div class="triangle-up-left"></div>
         <div class="square-left"></div>
@@ -36,6 +30,16 @@
    <div class="container">
         <section>
              <div class="row">
+                 @if(Session::get('confirm'))
+                     <div class="alert alert-success alert-dismissable">
+                         {{Session::get('confirm')}}
+                     </div>
+                 @endif
+                 @if(count($errors)>0)
+                     <div class="alert alert-danger alert-dismissable">
+                         ¡Por favor, revise los datos del formulario!
+                     </div>
+                 @endif
                   <div class="office_address col-sm-6 col-md-4">
                        <div class="team_member">
                               {{ HTML::image('/images/consorcio.png','Logo') }}<br/><br/><br/>
