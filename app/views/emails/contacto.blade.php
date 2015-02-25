@@ -34,7 +34,7 @@
                                 </div>
                             </td>
                             <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#525252;">
-                                <br/><br/><br/><br/><br/><br/><br/><br/>
+                                <br/><br/>
                                 {{ HTML::image('images/consorcio.png','',['width'=>"213", 'align'=>"right", 'style'=>"margin-left:10px;"]) }}
                             </td>
                         </tr>
