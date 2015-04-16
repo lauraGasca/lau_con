@@ -39,27 +39,27 @@
                     <label class="mobile_collapser">MENU</label>
                     <!-- Mobile menu title -->
                     <ul>
-                        <li><a href="{{url('glosario')}}" style="font-size: 20px;"><i class="fa fa-question-circle"></i></a></li>
+                        <li><a href="{{url('glosario')}}" style="font-size: 34px;"><i class="fa fa-question-circle"></i></a></li>
                         <li
                         @section('inicio')
                                 @show
-                                >{{link_to('/', 'Inicio')}}</li>
+                                style="margin: 15px 0px;">{{link_to('/', 'Inicio')}}</li>
                         <li
                         @section('nosotros')
                                 @show
-                                >{{link_to('nosotros', 'Nosotros')}}</li>
+                                style="margin: 15px 0px;">{{link_to('nosotros', 'Nosotros')}}</li>
                         <li
                         @section('servicios')
                                 @show
-                                >{{link_to('servicios', 'Servicios')}}</li>
+                                style="margin: 15px 0px;">{{link_to('servicios', 'Servicios')}}</li>
                         <li
                         @section('convocatirias')
                                 @show
-                                >{{link_to('convocatorias', 'Convocatorias')}}</li>
+                                style="margin: 15px 0px;">{{link_to('convocatorias', 'Convocatorias')}}</li>
                         <li
                         @section('contacto')
                                 @show
-                                >{{link_to('contacto', 'Contacto')}}</li>
+                                style="margin: 15px 0px;">{{link_to('contacto', 'Contacto')}}</li>
                     </ul>
                 </div>
                 <div class="triangle-up-left"></div>
