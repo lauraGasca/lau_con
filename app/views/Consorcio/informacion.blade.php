@@ -4,7 +4,7 @@
             <div class="hgroup">
                 <div class="hgroup_title animated bounceInUp skincolored">
                     <div class="container">
-                        <h1>Glosario</h1>
+                        <h1>Proceso para obtener recursos para tu proyecto</h1>
                     </div>
                 </div>
                 <div class="hgroup_subtitle animated bounceInUp ">
@@ -27,6 +27,11 @@
         <div class="container">
             <div class="row">
                 <div id="leftcol" class="col-sm-11 col-md-11">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="btn-group">
+                            <a href="{{url('/')}}" class="btn btn btn-info"><i class="fa fa-mail-reply"></i> Regresar a la p&aacute;gina principal</a>
+                        </div>
+                    </div><br/><br/><br/><br/><br/>
                     <article class="post" id="proyecto">
                         <ul>
                             <li type="decimal"><a href="#proyecto">¿Que es un proyecto de innovación?</a></li>

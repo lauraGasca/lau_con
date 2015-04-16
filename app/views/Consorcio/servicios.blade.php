@@ -51,85 +51,21 @@
         <div class="container">
              <h2 class="section_header fancy centered">Ofrecemos servicios<small>Que destacan por su calidad</small></h2>
              <div class="row">
-                <div class="col-sm-4 col-md-4">
-                    <div class="service_teaser vertical">
-                        <div class="service_photo">
-                            <a target="_blank" href="{{url('servicio/1/gestion-proyectos')}}">
-                                {{ HTML::image('images/servicios/1.png','Gestión de proyectos') }}
-                            </a>
-                        </div>
-                        <div class="service_details">
-                            <h2>{{ HTML::link('servicio/1/gestion-proyectos', 'Gestión de proyectos',['style'=>"color: #FFFFFF;", 'target'=>"_blank"]) }}</h2>
-                            <p>Gestión de proyectos de innovación tecnológica en fondos y apoyos gubernamentales existentes a nivel estatal o federal</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="service_teaser vertical">
-                        <div class="service_photo">
-                            <a target="_blank" href="{{url('servicio/2/seguimiento-proyectos-aprobados')}}">
-                                {{ HTML::image('images/servicios/2.png','Seguimiento de proyectos aprovados') }}
-                            </a>
-                        </div>
-                        <div class="service_details">
-                            <h2>{{ HTML::link('servicio/2/seguimiento-proyectos-aprobados', 'Seguimiento de proyectos aprovados',['style'=>"color: #FFFFFF;", 'target'=>"_blank"]) }}</h2>
-                            <p>Seguimiento de proyectos aprobados en convocatorias en fondos y apoyos gubernamentales existentes a nivel estatal o federal</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="service_teaser vertical">
-                        <div class="service_photo">
-                            <a target="_blank" href="{{url('servicio/3/generacion-actualización-reniecyt')}}">
-                                {{ HTML::image('images/servicios/3.png','Generación y actualización de RENIECYT') }}
-                            </a>
-                        </div>
-                        <div class="service_details">
-                            <h2>{{ HTML::link('servicio/3/generacion-actualización-reniecyt', 'Generación y actualización de RENIECYT',['style'=>"color: #FFFFFF;", 'target'=>"_blank"]) }}</h2>
-                            <p>Generación y actualización de Registro Nacional de Instituciones y Empresas Científicas y Tecnológicas (RENIECYT).</p>
-                        </div>
-                    </div>
-                </div>
-             </div>
-             <div class="row">
-                  <div class="col-sm-4 col-md-4">
-                       <div class="service_teaser vertical">
-                            <div class="service_photo">
-                                <a target="_blank" href="{{url('servicio/4/valoracion-evaluacion-I-D-I')}}">
-                                    {{ HTML::image('images/servicios/4.png','Valoración y Evaluación de Proyectos I+D+I') }}
-                                </a>
-                            </div>
-                            <div class="service_details">
-                                <h2>{{ HTML::link('servicio/4/valoracion-evaluacion-I-D-I', 'Valoración y Evaluación de Proyectos I+D+I',['style'=>"color: #FFFFFF;", 'target'=>"_blank"]) }}</h2>
-                            </div>
-                       </div>
-                  </div>
-                  <div class="col-sm-4 col-md-4">
-                       <div class="service_teaser vertical">
-                            <div class="service_photo">
-                                <a target="_blank" href="{{url('servicio/5/cierre-proyectos-I-D-I')}}">
-                                    {{ HTML::image('images/servicios/5.png','Cierre de proyectos I+D+I') }}
-                                </a>
-                            </div>
-                            <div class="service_details">
-                                <h2>{{ HTML::link('servicio/5/cierre-proyectos-I-D-I', 'Cierre de proyectos I+D+I',['style'=>"color: #FFFFFF;", 'target'=>"_blank"]) }}</h2>
-                            </div>
-                       </div>
-                  </div>
-                  <div class="col-sm-4 col-md-4">
-                       <div class="service_teaser vertical">
-                            <div class="service_photo">
-                                <a target="_blank" href="{{url('servicio/6/vinculacion-IES-CIs')}}">
-                                    {{ HTML::image('images/servicios/6.png','Vinculación con IES/CIs') }}
-                                </a>
-                            </div>
-                            <div class="service_details">
-                                <h2>{{ HTML::link('servicio/6/vinculacion-IES-CIs', 'Vinculación con IES/CIs',['style'=>"color: #FFFFFF;", 'target'=>"_blank"]) }}</h2>
-                                <p>Vinculación con Institución de Educación superior y Centros de Investigación (IES/CIs)
-                                </p>
-                            </div>
-                       </div>
-                  </div>
+                 @foreach($servicios as $servicio)
+                     <div class="col-sm-4 col-md-4" style="height: 400px;">
+                         <div class="service_teaser vertical">
+                             <div class="service_photo">
+                                 <ahref="{{url('servicios/'.substr(strip_tags(trim(str_replace(' ', '-', $servicio->nombre), '-')), 0, 100).'/'.$servicio->id)}}">
+                                     {{ HTML::image('images/servicios/'.$servicio->imagen, $servicio->nombre) }}
+                                 </a>
+                             </div>
+                             <div class="service_details" >
+                                 <h2 style="font-size: 20px;">{{ HTML::link('servicios/'.substr(strip_tags(trim(str_replace('/', '-',str_replace(' ', '-', $servicio->nombre)), '-')), 0, 100).'/'.$servicio->id, $servicio->nombre,['style'=>"color: #FFFFFF;"]) }}</h2>
+                                 <p style="font-size: 15px;">{{$servicio->resumen}}</p>
+                             </div>
+                         </div>
+                     </div>
+                 @endforeach
              </div>
         </div>
     </section>

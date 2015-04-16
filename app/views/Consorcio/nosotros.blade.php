@@ -29,48 +29,49 @@
     <section class="horizontal_teaser">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-4 horizontal_teaser_left">
+                <div class="col-sm-12 col-md-5 horizontal_teaser_left">
                     <h3>Nosotros</h3>
-                    <p>Somos una Asociación Civil, con la clara misión de propiciar una cultura de Innovación
-                    entre las Empresas y Centros de Investigación e Instituciones de Educación Superior, a
-                    través de la Formulación de proyectos de <strong>Innovación y Desarrollo Tecnológico,
-                    Productivos y de Impacto Ambiental</strong></p>
-
-                    <p>Se crea a mediados del 2009 como una iniciativa del <strong>CONCYTEG</strong> y del
-                    <strong>Consejo Coordinador Empresarial de Celaya</strong>; con la misión clara de propiciar una cultura de
-                    innovación en nuestra sociedad, teniendo como herramienta fundamental la <strong>vinculación</strong>
-                    entre las empresas y los Centros de investigación e Instituciones de Educación Superior
-                    del Estado, como una plataforma para la elaboración de proyectos de innovación y
-                    desarrollo que atiendan las áreas de oportunidad a través de la aplicación novedosa del
-                    conocimiento, contribuyendo así a la consolidación de una sociedad competitiva.</p>
+                    <p align="justify">Somos una Asociaci&oacute;n Civil comprometida en brindar soluciones
+                        en gesti&oacute;n de fondos para proyectos de innovaci&oacute;n, desarrollo tecnol&oacute;gico,
+                        productivos y de impacto ambiental para las empresas y personas físicas con
+                        actividad empresarial.</p>
+                    <p align="justify">El Consorcio del Conocimiento surge a mediados del 2009 con la clara misi&oacute;n
+                        de propiciar una cultura de innovaci&oacute;n en nuestra sociedad, teniendo como
+                        herramienta fundamental la vinculación entre las empresas y los Centros de
+                        investigaci&oacute;n e Instituciones de Educaci&oacute;n Superior del Estado, como una plataforma
+                        para la elaboraci&oacute;n de proyectos de innovaci&oacute;n, desarrollo tecnol&oacute;gico, productivos
+                        y de impacto ambiental,  que atiendan las &aacute;reas de oportunidad del sector empresarial
+                        a través de la aplicaci&oacute;n novedosa del conocimiento, contribuyendo así a la consolidaci&oacute;n
+                        de una sociedad competitiva.</p>
                     <br/>
                     <li style="list-style-type: square; padding-left: 20px;">Hemos gestionado desde el 2009 a la fecha 146 proyectos:,</li>
                     <br/><br/>
                     <p><strong>Tipo de empresas:</strong> </p>
-                    {{ HTML::image('images/mercado-empresas.png') }}
-                    <br/><br/>
-                    <p><strong>Sectores</strong> </p>
-                    <br/>
-                    <p><strong>Tipos de proyectos</strong> </p>
-                    <li>90% de Desarrollo Tecnológico e Innovación</li>
-                    <li>6% Productivos</li>
-                    <li>4% de Impacto Ambiental</li>
+                    {{ HTML::image('images/mercado-empresas.png', null, []) }}
+
                 </div>
-                <div class="col-sm-12 col-md-8 horizontal_teaser_right">
+                <div class="col-sm-12 col-md-7 horizontal_teaser_right">
                     <h3><strong>Estructura del Consorcio del Conocimiento</strong></h3><br/>
                     {{ HTML::image('images/consejo-estructura.png') }}
                     <br/><br/>
                     <p>En estructura operativa se encuentra:</p>
                     <br/>
                     <p><strong>Operaci&oacute;n</strong></p>
-                    <p>Contamos con un Consejo Directivo Empresarial conformado
-                    empresarios en la región líderes en los sectores económicos
-                    y Consejo Técnico conformado por Investigadores
-                    Conformado por destacados especialistas de Centros de Investigación e
-                    Instituciones de Educación Superior, quienes apoyan en la
-                    gestión tecnológica, determinan la estrategia adecuada de vinculación, apoyan con
-                    la elaboración de la propuesta a someter en algún fondo para gestionar los
-                    apoyos en innovación y desarrollo para las empresas.</p>
+                    <p align="justify">Contamos con un Consejo Consultivo Empresarial conformado por
+                        empresarios líderes en los sectores económicos de la regi&oacute;n,  y un Consejo
+                        T&eacute;cnico formado por destacados especialistas de Instituciones de Educaci&oacute;n
+                        Superior y Centros de Investigaci&oacute;n, quienes colaboran con el Consorcio en
+                        la vinculación tecnol&oacute;gica y el an&aacute;lisis de la viabilidad de proyectos .</p>
+                    <p align="justify">El Consorcio del Conocimiento cuenta con un equipo de personas
+                        verdaderamente comprometidas en apoyar a la competitividad de las empresas a
+                        través de la gesti&oacute;n de recursos para sus proyectos innovadores, productivos
+                        o de un impacto ambiental. El equipo est&aacute; conformado por  expertos en la
+                        coordinación y formulaci&oacute;n de proyectos entre las empresas e Instituciones
+                        de Educación Superior y/o Centros de Investigaci&oacute;n (si en el proyecto fuese
+                        necesaria dicha vinculaci&oacute;n).</p>
+                    <p align="justify">Tambi&eacute;n cuenta con personal calificado para el seguimiento de
+                        los proyectos,  y realizaci&oacute;n de tr&aacute;mites necesarios para que las empresas
+                        puedan concursar en los fondos que mejor apliquen a su propuesta.</p>
 
                 </div>
             </div>
@@ -80,23 +81,31 @@
         <div class="overlay">
             {{ HTML::image('images/rocket_trans.png') }}
             <h3>Impulsamos el desarrollo <strong>sustentable</strong></h3>
-            <h4>Damos respuesta a la continua b&uacute;squeda de mejora de las organizaciones a trav&eacute;s de la innovaci&oacute;n tecnol&oacute;gica.<h4>
+            <h4>Damos respuesta a la continua b&uacute;squeda de mejora de las organizaciones a trav&eacute;s de la innovaci&oacute;n tecnol&oacute;gica.</h4>
         </div>
     </section>
     <div class="clients_section wow fadeInUp">
         <div class="container">
-            <h2 class="section_header elegant centered">Historia</h2>
+            <h2 class="section_header elegant centered">Fondos y convocatorias con las que el Consorcio trabaja</h2>
             <div>
-                <h3>Fondos con los cuales se han trabajado:</h3>
-                <ul style="font-size: medium;" class="rss">
-                    <li>Fondos Mixtos Guanajuato.</li>
-                    <li>Fondos de Innovación Tecnológica (Conacyt-Secretaría de Economía)</li>
-                    <li>Programa de Estímulos a la innovación (PEI)</li>
+                <ul style="font-size: medium; line-height: 40px;" class="rss">
+                    <li>Programa de Est&iacute;mulos a la innovaci&oacute;n (PEI)</li>
                     <li>Convocatoria Conjunta CDTI-CONACYT</li>
-                    <li>Fondo Sectorial de Economía (FINNOVA, Pilares a la Innovación)</li>
-                    <li>ProMéxico</li>
-                    <li>Fondo sectorial de Energía Sener-Conacyt (Energía y sustentabilidad energética).</li>
-                    <li>Instituto Nacional del Emprendedor (INADEM), Desarrollo de Proveedores.</li>
+                    <li>Fondo de Innovaci&oacute;n Tecnol&oacute;gica del Estado de Guanajuato (FINNOVATEG).</li>
+                </ul>
+                <br/>
+                <h3>Fondos Sectoriales:</h3>
+                <ul style="font-size: medium; line-height: 40px;" class="rss">
+                    <li>Fondo de Innovación Tecnol&oacute;gica (FIT), Secretaria de Economía y Conacyt.</li>
+                    <li>Fondo Sectorial de Innovaci&oacute;n (FINNOVA),  Secretaria de Economía y Conacyt.</li>
+                        <li style="margin-left: 30px; list-style-type: circle;">Convocatoria de Bonos para la transferencia y comercialización del conocimiento.</li>
+                        <li style="margin-left: 30px; list-style-type: circle;">Convocatoria de bonos para la innovación a través de las Oficinas de Transferencia de Conocimiento.</li>
+                    <li>Fondo Sectorial  Sener – Conacyt /Sustentabilidad Energ&eacute;tica.</li>
+                    <li>Fomento a las iniciativas a la innovaci&oacute;n del Instituto Nacional del Emprendedor (INADEM)./li>
+                    <li>Desarrollo de proveedores (INADEM).</li>
+                    <li>Escalamiento productivo (INADEM).</li>
+                    <li>Desarrollo y Fortalecimiento de oferta exportable (INADEM).</li>
+                    <li>Programa de Apoyo para la mejora Tecnol&oacute;gica de la Industria de la Alta Tecnolog&iacute;a (PROIAT).</li>
                 </ul>
             </div>
         </div>

@@ -1,12 +1,29 @@
 <?php
 
+use Consorcio\Managers\ValidatorManager;
+use Consorcio\Repositories\ConvocatoriaRepo;
+use Consorcio\Repositories\ServicioRepo;
+use Consorcio\Repositories\FraseRepo;
+
 class SistemaController extends BaseController
 {
-    protected $layout = 'layout';
+    protected $layout = 'layouts.principal';
+    protected $convocatoriaRepo;
+    protected $servicioRespo;
+    protected $frasesRepo;
+
+    public function __construct(ConvocatoriaRepo $convocatoriaRepo, ServicioRepo $servicioRepo, FraseRepo $fraseRepo)
+    {
+        $this->beforeFilter('csrf', array('on' => array('post', 'put', 'patch', 'delete')));
+        $this->convocatoriaRepo = $convocatoriaRepo;
+        $this->servicioRespo = $servicioRepo;
+        $this->frasesRepo = $fraseRepo;
+    }
     
 	public function index()
 	{
-	    $this->layout->content = View::make('Consorcio.inicio');
+        $frases = $this->frasesRepo->frases();
+	    $this->layout->content = View::make('Consorcio.inicio', compact('frases'));
 	}
 	
 	public function nosotros()
@@ -16,11 +33,13 @@ class SistemaController extends BaseController
 	
 	public function servicios()
 	{
-	    $this->layout->content = View::make('Consorcio.servicios');
+        $servicios = $this->servicioRespo->servicios_inicio();
+	    $this->layout->content = View::make('Consorcio.servicios', compact('servicios'));
 	}
 	
-	public function servicio($servicio,$nombre)
+	public function servicio($servicio,$id)
 	{
+        $servicio = $this->servicioRespo->servicio($id);
 	    $this->layout->content = View::make('Consorcio.servicio',compact('servicio'));
 	}
 
@@ -31,11 +50,13 @@ class SistemaController extends BaseController
 	
 	public function convocatorias()
 	{
-	    $this->layout->content = View::make('Consorcio.convocatorias');
+        $convocatorias = $this->convocatoriaRepo->convocatorias();
+	    $this->layout->content = View::make('Consorcio.convocatorias',compact('convocatorias'));
 	}
 	
-	public function convocatoria($convocatoria, $nombre)
+	public function convocatoria($convocatoria, $id)
 	{
+        $convocatoria = $this->convocatoriaRepo->convocatoria($id);
 	    $this->layout->content = View::make('Consorcio.convocatoria',compact('convocatoria'));
 	}
 	
@@ -46,29 +67,20 @@ class SistemaController extends BaseController
 	
 	public function correo()
 	{
-	    $rules = [
-			"name"   		=>	'required|min:3|max:100',
-			"email"     	=>	'required|email|min:3|max:50',
-			"asunto"     	=>	'required|min:3|max:20',
-			"mensaje"   	=>	'required|min:1|max:600',
-	    ];
-	    $validation = Validator::make(Input::all(), $rules);
-	    if ($validation->fails())
-		    return Redirect::back()->withErrors($validation)->withInput();
-	    else {
-			$asunto ='Contacto | '.Input::get('asunto');
-			Mail::send(
-				'emails.contacto', ['nombre' => Input::get('name'), 'correo' => Input::get('email'),
-				'asunto' => Input::get('asunto'), 'mensaje' => Input::get('mensaje')],
-				function ($message) use ($asunto) {
-					$message->subject($asunto);
-                    $message->to('ginaric218@hotmail.com');
-					$message->to('antonio.tirado023@gmail.com');
-                    $message->to('vjamaica@conconocimiento.org.mx');
-				}
-			);
-			return Redirect::back()->with(array('confirm' => 'Gracias por contactarnos.'));
-		}
+        $manager =  new ValidatorManager('contacto', Input::all());
+        $manager->validar();
+        $asunto ='Contacto | '.Input::get('asunto');
+        Mail::send(
+            'emails.contacto', ['nombre' => Input::get('name'), 'empresa' => Input::get('empresa'),'correo' => Input::get('email'),
+            'asunto' => Input::get('asunto'), 'mensaje' => Input::get('mensaje')],
+            function ($message) use ($asunto) {
+                $message->subject($asunto);
+                $message->to('ginaric218@hotmail.com');
+                $message->to('antonio.tirado023@gmail.com');
+                $message->to('vjamaica@conconocimiento.org.mx');
+            }
+        );
+        return Redirect::back()->with(array('confirm' => 'Gracias por contactarnos.'));
 	}
 
 }

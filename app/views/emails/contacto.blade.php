@@ -23,6 +23,9 @@
                                 <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:40px; color:#000000;">
                                     {{$nombre}}
                                 </div>
+                                <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:40px; color:#000000;">
+                                    {{$empresa}}
+                                </div>
                                 <div style="font-size:18px;"><br>
                                     {{$correo}}
                                 </div>

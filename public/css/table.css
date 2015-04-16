@@ -43,3 +43,7 @@ table.table2{
 .table2 tbody span.check::before{
     content : url(../images/check1.png)
 }
+
+.table2 tbody span.equis::before{
+    content: url(../images/equis.png);
+}

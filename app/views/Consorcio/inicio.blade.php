@@ -9,7 +9,7 @@
                 <li class="item" style="background-image: url({{url('images/1.jpg')}})">
                     <div class="container">
                         <div class="carousel-caption animated bounceInUp">
-                            <h1>"Las empresas no surguen con la generaci&oacute;n de buenas ideas, si no con la gesti&oacute;n de ellas"</h1>
+                            <h1>{{$frases[0]->frase}}</h1>
                             <!--<p class="lead skincolored"></p>-->
                         </div>
                     </div>
@@ -17,7 +17,7 @@
                 <li class="item" style="background-image: url({{url('images/2.png')}})">
                     <div class="container">
                         <div class="carousel-caption animated bounceInUp">
-                            <h1>Soluci&oacute;n en Gesti&oacute; de Fonfos de Innovaci&oacute; y Dessarrollo Tecnol&oacute;gico Productivos y de Impacto Ambiental</h1>
+                            <h1>{{$frases[1]->frase}}</h1>
                             <!--<p class="lead skincolored"></p>-->
                         </div>
                     </div>
