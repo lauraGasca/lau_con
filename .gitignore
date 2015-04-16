@@ -5,6 +5,8 @@ public/error_log
 .env.local.php
 /bootstrap/compiled.php
 /vendor
+/public/images/servicios
+/public/images/convocatorias
 composer.phar
 composer.lock  # Remove this one after you create a project
 .env.php
