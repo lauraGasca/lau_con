@@ -3,7 +3,7 @@
 @stop
 
 @section('encabezado')
-    <div class="full_page_photo" style="background-image: url({{url('images/portfolio/p3.jpg')}});"> </div>
+    <div class="full_page_photo" style="background-image: url({{url('images/p3.jpg')}});"> </div>
 @stop
 
 @section('contenido')

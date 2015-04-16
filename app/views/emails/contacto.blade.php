@@ -5,9 +5,9 @@
     </head>
 
     <body>
-        <table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+        <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
             <tr>
-                <td align="center" valign="top" bgcolor="#f1f69d" style="height:106px; background-color:#222222; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000000; padding:10px;">
+                <td align="center" valign="top" bgcolor="#f1f69d" style="height:106px; background-color:#222222; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; color:#000000; padding:10px;">
                     <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;">
                         <tr>
                             <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#525252;"></td>
@@ -16,29 +16,27 @@
                 </td>
             </tr>
             <tr>
-                <td align="center" valign="top" bgcolor="#f1f69d" style="background-color:#EAEAEA; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000000; padding:10px;">
+                <td align="center" valign="top" bgcolor="#f1f69d" style="background-color:#EAEAEA; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; color:#000000; padding:50px;">
                     <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;">
                         <tr>
-                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#525252;">
-                                <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:40px; color:#000000;">
-                                    {{$nombre}}
+                            <td align="left" valign="top" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:25px; color: black;">
+                                <div style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:35px; color: black;">
+                                    Contacto desde el Sitio Web {{ HTML::image('images/consorcio.png','',['width'=>"213", 'align'=>"right", 'style'=>"margin-left:10px;"]) }}
                                 </div>
-                                <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:40px; color:#000000;">
-                                    {{$empresa}}
+                                <div style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:18px; color:#696969;">
+                                    <strong style="color: rgb(42, 42, 42);">Asunto: </strong> {{$asunto}}
                                 </div>
-                                <div style="font-size:18px;"><br>
-                                    {{$correo}}
+                                <div style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:20px; color:#696969;">
+                                    <br/><br/><strong style="color: rgb(42, 42, 42);">{{$nombre}}</strong> @if($empresa<>'') de la empresa <strong style="color: rgb(42, 42, 42);">{{$empresa}}</strong> @endif escribe,
                                 </div>
-                                <div style="font-size:28px;"><br>
-                                    {{$asunto}}
+
+                                <div style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:20px; color:#696969;">
+                                    {{$mensaje}}
                                 </div>
-                                <div>
-                                    <br>{{$mensaje}}<br><br>
+                                <br/><br/><br/><br/>
+                                <div style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:18px; color:#696969;">
+                                    <strong style="color: rgb(42, 42, 42);">Correo de contacto:</strong> {{$correo}}
                                 </div>
-                            </td>
-                            <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#525252;">
-                                <br/><br/>
-                                {{ HTML::image('images/consorcio.png','',['width'=>"213", 'align'=>"right", 'style'=>"margin-left:10px;"]) }}
                             </td>
                         </tr>
                     </table>
@@ -48,7 +46,7 @@
                 <td align="left" valign="top" bgcolor="#478730" style="background-color:#222222; height:106px;">
                     <table width="100%" border="0" cellspacing="0" cellpadding="15">
                         <tr>
-                            <td align="left" valign="top" style="color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:13px;"></td>
+                            <td align="left" valign="top" style="color:#ffffff; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px;"></td>
                         </tr>
                     </table>
                 </td>

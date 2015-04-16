@@ -28,13 +28,13 @@ class ValidatorManager
                 break;
             case 'correo':
                 $rules = [
-                    'asunto' =>  'required|max:100',
+                    'asunto' =>  'required|max:500',
                     'archivo' =>  'required|image'
                 ];
                 break;
             case 'error':
                 $rules = [
-                    'descripcion' =>  'required|max:100',
+                    'descripcion' =>  'required|max:500',
                     'foto' =>  'image'
                 ];
                 break;

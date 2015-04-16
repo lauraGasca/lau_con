@@ -39,6 +39,7 @@
                     <label class="mobile_collapser">MENU</label>
                     <!-- Mobile menu title -->
                     <ul>
+                        <li><a href="{{url('glosario')}}" style="font-size: 20px;"><i class="fa fa-question-circle"></i></a></li>
                         <li
                         @section('inicio')
                                 @show
@@ -96,14 +97,6 @@
                             </p><br/>
                             <p>Telef&oacute;no de oficina</p>
                             <p><i class="fa fa-phone"></i> 01 (461) 61-2-18-73</p>
-                        </div>
-
-                        <div class="footer_teaser pl_flickr_widget col-sm-4 col-md-4" id="latest-flickr-images">
-                            <div class="footer_social">
-                                <div class="social_wrapper">
-                                    <a href="{{url('glosario')}}"><i class="fa fa-book"></i></a>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

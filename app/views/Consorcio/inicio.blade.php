@@ -10,7 +10,7 @@
                     <div class="container">
                         <div class="carousel-caption animated bounceInUp">
                             <h1>{{$frases[0]->frase}}</h1>
-                            <!--<p class="lead skincolored"></p>-->
+                            <p class="lead skincolored" style="background-color: rgba(66, 139, 202, 0);"></p>
                         </div>
                     </div>
                 </li>
@@ -18,7 +18,7 @@
                     <div class="container">
                         <div class="carousel-caption animated bounceInUp">
                             <h1>{{$frases[1]->frase}}</h1>
-                            <!--<p class="lead skincolored"></p>-->
+                            <p class="lead skincolored" style="background-color: rgba(66, 139, 202, 0);"></p>
                         </div>
                     </div>
                 </li>
@@ -42,7 +42,6 @@
                     <h3 style="height: 50px;">El consorcio del Conocimiento</h3>
                     {{link_to('nosotros', 'Nosotros', array('class'=>"btn btn-danger center-block "))}}
                 </div>
-
                 <div class="feature_teaser col-sm-4 col-md-4">
                     <img alt="responsive" src="{{url('images/lib-v2.png')}}">
                     <h3 style="height: 50px;">Nuestra especialidad</h3>

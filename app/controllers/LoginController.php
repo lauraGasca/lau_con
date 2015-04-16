@@ -52,7 +52,7 @@ class LoginController extends BaseController
         //return View::make('emails.error', compact('descripcion','imagen'));
         Mail::send('emails.error', ['descripcion' => $descripcion, 'imagen' => $imagen],
             function ($message) {
-                $message->subject('Error de Panaderia');
+                $message->subject('Error del Consorcio');
                 $message->to('lau_lost@hotmail.com', 'Laura Gasca');
             });
         return Redirect::back()->with(array('confirm' => 'Se ha enviado el correo, resolveremos el problema a la brevedad.'));

@@ -15,7 +15,7 @@
                                 <td width="20" align="left" valign="top" bgcolor="#000000" style="background-color:#FFFFFF;">&nbsp;</td>
                                 <td align="center" valign="top" bgcolor="#000000" style="background-color:#FFFFFF; color:#7b7b7b; font-family:Arial, Helvetica, sans-serif; font-size:14px;">
                                     <br/><br/>
-                                    {{ HTML::image('images/logo2.png', 'Logo', ['style'=>"height: 163px; display:block;"]) }}
+                                    {{ HTML::image('images/consorcio.png', 'Logo', ['style'=>"height: 100px; display:block;"]) }}
                                     <br><br/><br/>
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
@@ -26,7 +26,7 @@
                                         <tr>
                                             <td height="65" align="center" valign="middle">
                                                 <div style="color:#CE2A37; font-size:28px; font-family:Arial, Helvetica, sans-serif;">
-                                                    Error de Panaderia el Triunfo
+                                                    Error del Consorcio del Conocimiento, A.C.
                                                 </div>
                                             </td>
                                         </tr>

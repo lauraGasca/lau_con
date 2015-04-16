@@ -12,7 +12,7 @@
             </div>
             <div class="hgroup_subtitle animated bounceInUp skincolored">
                 <div class="container">
-                    <p>Conócenos más.....// El consorcio comienza...</p>
+                    <p>Conócenos más..... El consorcio comienza...</p>
                 </div>
             </div>
         </div>
