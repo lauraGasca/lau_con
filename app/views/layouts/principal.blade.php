@@ -39,7 +39,7 @@
                     <label class="mobile_collapser">MENU</label>
                     <!-- Mobile menu title -->
                     <ul>
-                        <li><a href="{{url('glosario')}}" style="font-size: 34px;"><i class="fa fa-question-circle"></i></a></li>
+
                         <li
                         @section('inicio')
                                 @show
@@ -52,6 +52,10 @@
                         @section('servicios')
                                 @show
                                 style="margin: 15px 0px;">{{link_to('servicios', 'Servicios')}}</li>
+                        <li
+                        @section('glosario')
+                            @show
+                            style="margin: 15px 0px;">{{link_to('glosario', 'Obtener Recursos')}}</li>
                         <li
                         @section('convocatirias')
                                 @show

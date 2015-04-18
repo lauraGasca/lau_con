@@ -4,11 +4,14 @@
 
 @section('encabezado')
     <div class="full_page_photo">
-        <div id="map"></div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d934.1003646549201!2d-100.8137468!3d20.5307487!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1429384322404" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+        </div>
         <div class="container">
             <div class="hgroup">
                 <div class="hgroup_title animated bounceInUp ">
                     <div class="container">
+
                         <h1>Contacto</h1>
                     </div>
                 </div>
@@ -20,6 +23,7 @@
             </div>
         </div>
     </div>
+
 @stop
 
 @section('contenido')

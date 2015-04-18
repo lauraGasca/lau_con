@@ -1,3 +1,7 @@
+@section('glosario')
+    class="active"
+@stop
+
 @section('encabezado')
     <div class="full_page_photo no_photo">
         <div class="container">
@@ -26,164 +30,149 @@
     <section class="with_right_sidebar">
         <div class="container">
             <div class="row">
-                <div id="leftcol" class="col-sm-11 col-md-11">
-                    <div class="col-sm-6 col-md-4">
-                        <div class="btn-group">
-                            <a href="{{url('/')}}" class="btn btn btn-info"><i class="fa fa-mail-reply"></i> Regresar a la p&aacute;gina principal</a>
+                <div id="leftcol" class="col-sm-11 col-md-11" style="font-size: 25px;">
+                    <div class="col-sm-11 col-md-11">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="btn-group">
+                                <a href="{{url('/')}}" class="btn btn btn-info"><i class="fa fa-mail-reply"></i> Regresar a la p&aacute;gina principal</a>
+                            </div>
                         </div>
-                    </div><br/><br/><br/><br/><br/>
-                    <article class="post" id="proyecto">
-                        <ul>
-                            <li type="decimal"><a href="#proyecto">¿Que es un proyecto de innovación?</a></li>
-                            <li type="decimal"><a href="#inovacion">¿Que es innovación?</a></li>
-                            <li type="decimal"><a href="#caracteristicas">¿Puedo someter un proyecto?</a></li>
-                            <li type="decimal"><a href="#tutorial">Proceso</a></li>
-                        </ul>
-                    </article>
-                    <article class="post" >
+                    </div><br/><br/><br/>
+                    <section class="features_teasers_wrapper" style="padding: 0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-1 col-md-2"></div>
+                                <div class="col-sm-4 col-md-3" style="text-align: center">
+                                    <a href="#idea" style="color: rgb(90, 90, 90);"><img alt="responsive" src="{{url('images/phone-v2.png')}}">
+                                    <h3 style="height: 50px;">Idea o proyecto</h3></a>
+                                </div>
+                                <div class="col-sm-1 col-md-2" style="text-align: center; padding-top: 35px;">
+                                    <img alt="responsive" src="{{url('images/Flecha_tesela.png')}}">
+                                </div>
+                                <div class="col-sm-4 col-md-3" style="text-align: center">
+                                    <a href="#eleccion" style="color: rgb(90, 90, 90);"><img alt="responsive" src="{{url('images/rocket_trans-v2.png')}}">
+                                    <h3 style="height: 50px;">Elecci&oacute;n de Fondo</h3></a>
+                                </div>
+                                <div class="col-sm-1 col-md-2" style="text-align: center; padding-top: 60px;">
+                                    <img alt="responsive" src="{{url('images/fecha3.png')}}" style="width: 70px;">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="features_teasers_wrapper" style="padding: 0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-4 col-md-4" style="text-align: left">
+                                    <a href="#seguimiento" style="color: rgb(90, 90, 90);"><img alt="responsive" src="{{url('images/phone-v2.png')}}">
+                                    <h3 style="height: 50px;">Seguimiento del Proyecto</h3></a>
+                                </div>
+                                <div class="col-sm-4 col-md-4" style="text-align: center; padding-top: 40px;">
+                                    <a href="{{url('contacto')}}" class="btn btn-primary">Comienza tu proyecto Aqu&iacute;</a>
+                                </div>
+                                <div class="col-sm-4 col-md-4" style="text-align: right">
+                                    <a href="#vinculacion" style="color: rgb(90, 90, 90);"><img alt="responsive" src="{{url('images/phone-v2.png')}}">
+                                    <h3 style="height: 50px;">Vinculaci&oacute;n</h3></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="features_teasers_wrapper" style="padding: 0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-1 col-md-2" style="text-align: center; ">
+                                    <img alt="responsive" src="{{url('images/fecha5.png')}}" style="width: 70px;"/>
+                                </div>
+                                <div class="col-sm-4 col-md-3" style="text-align: center">
+                                    <a href="#gestion" style="color: rgb(90, 90, 90);"><img alt="responsive" src="{{url('images/phone-v2.png')}}">
+                                    <h3 style="height: 50px;">Gesti&oacute;n del Proyecto</h3></a>
+                                </div>
+
+                                <div class="col-sm-1 col-md-2" style="text-align: center; padding-top: 35px;">
+                                    <img alt="responsive" src="{{url('images/Flecha_tesela2.png')}}">
+                                </div>
+
+                                <div class="col-sm-4 col-md-3" style="text-align: center">
+                                    <a href="#solicitud" style="color: rgb(90, 90, 90);"><img alt="responsive" src="{{url('images/rocket_trans-v2.png')}}">
+                                    <h3 style="height: 50px;">Solicitud de Informaci&oacute;n</h3></a>
+                                </div>
+
+                                <div class="col-sm-1 col-md-2" style="text-align: center; ">
+                                    <img alt="responsive" src="{{url('images/fecha4.png')}}" style="width: 70px;"/>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <article class="post" id="idea" style="padding-top: 120px;">
                         <div class="post_header">
-                            <h3 class="post_title"><a href="#">Proyecto</a></h3>
+                            <h3 class="post_title"><a href="#">Idea o proyecto:</a></h3>
                         </div>
                         <div class="post_content">
-                            <p>Proceso único que consiste en un conjunto de actividades coordinadas y controladas con fechas de
-                                inicio y terminación, emprendidas para lograr un objetivo conforme a requisitos específicos,
-                                incluyendo las restricciones de tiempo, costo y recursos
-                                (NMX-GT-001: 2008). Actualizar</p>
+                            <p>Todo proyecto comienza con una idea y/o necesidad que quieras atender en el mercado:
+                                si ya tienes tu propuesta definida o solo tienes la idea, nosotros te ayudamos a
+                                definir si  esta idea o propuesta puede ser sometida en alguna convocatoria para
+                                solicitar recursos. Este an&aacute;lisis se hace en base a que nos  detalles si tú
+                                propuesta o idea cuenta con mercado potencial, es una idea novedosa y otros elementos
+                                que se consideran importantes para un proyecto. </p>
                         </div>
                     </article>
-                    <article class="post">
+                    <article class="post" id="eleccion" style="padding-top: 120px;">
                         <div class="post_header">
-                            <h3 class="post_title"><a href="#">Valor agregado</a></h3>
+                            <h3 class="post_title"><a href="#">Elecci&oacute;n de Fondo</a></h3>
                         </div>
                         <div class="post_content">
-                            <p>Es la cualidad mejorada de un producto o servicio, que ha sido modificada o aumentada por la
-                            organización, y cuyo mérito es reconocido por el cliente o consumidor.</p>
+                            <p>Una vez definido el proyecto, evaluamos  a cu&aacute;l de los fondos puede ser sometido
+                                para concursar por un recurso econ&oacute;mico que le facilite llevar a cabo el
+                                proyecto con los impactos y resultados deseados. </p>
                         </div>
                     </article>
-                    <article class="post">
-                        <div class="post_header">
-                            <h3 class="post_title"><a href="#">Vinculación academia- y las empresas</a></h3>
+                    <article class="post" id="vinculacion" style="padding-top: 120px;">
+                        <div class="post_header" >
+                            <h3 class="post_title"><a href="#">Vinculaci&oacute;n </a></h3>
                         </div>
                         <div class="post_content">
-                            <p>Es la relación de intercambio y cooperación entre las instituciones de educación superior o los
-                            centros e instituciones de investigación y el sector productivo. Tiene como objetivos: para la
-                            Instituciones de Educación Superior, avanzar en el desarrollo científico y académico, y para las
-                            empresas, el desarrollo tecnológico y la solución de problemas concretos.</p>
+                            <p>Te ofrecemos opciones de vinculaci&oacute;n acad&eacute;mica para poder hacer que tu proyecto se fortalezca.</p>
+                            <p>Vinculaci&oacute;n acad&eacute;mica con el sector empresarial:
+                                Es la relaci&oacute;n de intercambio y colaboraci&oacute;n entre las
+                                instituciones de educaci&oacute;n superior o los centros e instituciones de
+                                investigaci&oacute;n y el sector productivo. Tiene como objetivos: para las
+                                Instituciones de Educaci&oacute;n Superior y/o Centros de Investigaci&oacute;n,
+                                avanzar en la investigaci&oacute;n, y aportar conocimiento a la soluci&oacute;n de
+                                necesidades; para las empresas, innovar a trav&eacute;s de la aplicaci&oacute;n
+                                novedosa del conocimiento para ser o mantener su competitividad. </p>
                         </div>
                     </article>
-                    <article class="post">
+                    <article class="post" id="solicitud" style="padding-top: 120px;">
                         <div class="post_header">
-                            <h3 class="post_title"><a href="#">Investigación</a></h3>
+                            <h3 class="post_title"><a href="#">Solicitud de Informaci&oacute;n </a></h3>
                         </div>
                         <div class="post_content">
-                            <p>Se considerará Investigación a la indagación original [novedad de conocimiento a nivel
-                                mundial/internacional o de sector] planificada [no casual] que persiga descubrir nuevos
-                                conocimientos y una superior comprensión en el ámbito científico y tecnológico.</p>
+                            <p>En la parte del proceso para someter tu proyecto en algún fondo para solicitar recursos,
+                                realizamos reuniones de trabajo para solicitarte m&aacute;s informaci&oacute;n
+                                acerca de &eacute;ste, se realiza un cronograma de actividades y se especifican
+                                responsabilidades, se firman acuerdos de confidencialidad en caso de ser necesario.</p>
                         </div>
                     </article>
-                    <article class="post" id="inovacion">
+                    <article class="post" id="gestion" style="padding-top: 120px;">
                         <div class="post_header">
-                            <h3 class="post_title"><a href="#">Desarrollo</a></h3>
+                            <h3 class="post_title"><a href="#">Gesti&oacute;n de la proyecto</a></h3>
                         </div>
                         <div class="post_content">
-                            <p>Se considerará Desarrollo a la aplicación de los resultados de la Investigación o de cualquier otro
-                                tipo de conocimiento científico para la fabricación de nuevos materiales o productos o para el
-                                diseño de nuevos procesos o sistemas de producción, así como para la mejora tecnológica
-                                sustancial de materiales, productos, procesos o sistemas preexistentes.</p>
+                            <p>El Consorcio del Conocimiento AC, coordina y realiza todas las actividades
+                                necesarias para elaborar los documentos normativos ante el fondo que se
+                                solicitar&aacute;n los recursos. Esto con el fin de que el proyecto cumpla
+                                con todos los requerimientos y tenga mayor oportunidad de obtener el apoyo
+                                por parte del fondo elegido.</p>
                         </div>
                     </article>
-                    <article class="post" id="caracteristicas">
+                    <article class="post" id="seguimiento" style="padding-top: 120px;">
                         <div class="post_header">
-                            <h3 class="post_title"><a href="#">Innovación</a></h3>
+                            <h3 class="post_title"><a href="#">Seguimiento del proyecto</a></h3>
                         </div>
                         <div class="post_content">
-                            <p>Es la introducción exitosa al mercado, de nuevos o significativamente mejorados, productos,
-                                procesos, servicios, métodos de comercialización u organizacionales.
-                                Fuente: OECD</p>
+                            <p>El Consorcio del Conocimiento AC durante la ejecuci&oacute;n del proyecto,
+                                te apoyar&aacute; para el seguimiento administrativo del mismo para que &eacute;ste
+                                llegue a un buen t&eacute;rmino.</p>
                         </div>
-                    </article>
-                    <article class="post" >
-                        <div class="post_header">
-                            <h3 class="post_title"><a href="#">Características de un proyecto</a></h3>
-                        </div>
-                        <div class="post_content">
-                            <ul>
-                                <li>Persecución de uno o varios objetivos</li>
-                                <li>Actividades planificadas, ejecutadas y supervisadas</li>
-                                <li>Disponibilidad limitada de recursos</li>
-                                <li>Limitado en el tiempo</li>
-                                <li>Con resultado único</li>
-                            </ul>
-                        </div>
-                    </article>
-                    <article class="post">
-                        <div class="post_header">
-                            <h3 class="post_title"><a href="#">Importancia de la innovación tecnológica en el desarrollo de las empresas</a></h3>
-                        </div>
-                        <div class="post_content">
-                            <p>Poner en práctica nuevas ideas que resulten en una mejora, una utilidad o un valor; es decir, una innovación es la implementación comercialmente rentable de una nueva idea.
-                                La consecuencia de una innovación debe ser un incremento en la utilidad; de lo contrario, NO estamos innovando.</p>
-                        </div>
-                    </article>
-                    <article class="post">
-                        <div class="post_header">
-                            <h3 class="post_title"><a href="#">Proceso del Consorcio en la Gestión de Proyectos de innovación</a></h3>
-                        </div>
-                        <div class="post_content">
-                            <p> Acciones del Consorcio para gestionar la innovación</p>
-                            <p>   Gestionar la vinculación entre IES o CI con las empresas, para que éstas sometan proyectos de
-                                innovación y desarrollo tecnológico, para ello:</p>
-                            <ul>
-                                <li type="decimal">Sensibilizar a las empresas: Directivos, mandos medios, dar a conocer ventajas y desventajas de
-                                innovar, de participar en fondos (carga administrativa), e intentar con ellos, trabajar en varios
-                                fondos, si el proyecto no es aprobado en primera instancia por algún fondo.</li>
-                                <li type="decimal">Sensibilizar a las Instituciones e Investigadores: De que es necesaria la vinculación con el
-                                sector productivo por:</li>
-                                    <li style="margin-left: 50px;">Explotar su conocimiento</li>
-                                    <li style="margin-left: 50px;">Mayor contacto con las empresas.</li>
-                                    <li style="margin-left: 50px;">Pruebas de concepto</li>
-                                    <li style="margin-left: 50px;">Realizar diseño de prototipos</li>
-                                    <li style="margin-left: 50px;">Apoyos</li>
-                                    <li style="margin-left: 50px;">Profesores con experiencia en el sector productivo.</li>
-                                    <li style="margin-left: 50px;">Alumnos involucrados en proyectos de la industria.</li>
-                                    <li style="margin-left: 50px;">Satisfacer demandas.</li>
-                                    <li style="margin-left: 50px;">Profesionistas con competencias requeridas</li>
-                                <li type="decimal" value="3">Dar a conocer fondos de innovación con un estímulo para innovar.</li>
-                                <li type="decimal" value="4">Gestionar la innovación, es decir, hacer las acciones necesarias para conseguir someter
-                                proyectos de desarrollo e innovación tecnológico de las empresas.</li>
-                                <li type="decimal" value="5">Acompañamiento a las empresas: Sugerir soluciones si su proyecto presenta problemas en su
-                                ejecución Financiera o Técnica (Caso Pistones)</li>
-                                <li type="decimal" value="6">Apoyarles en sus cierres de proyectos.</li>
-                                <li type="decimal" value="7">Ofrecer cursos de gestión de la innovación para diferentes sectores. (Como parte de la
-                                sensibilización)</li>
-                            </ul>
-                        </div>
-                    </article>
-                    <article class="post" id="tutorial">
-                        <div class="post_header">
-                            <h3 class="post_title"><a href="#">Proceso:</a></h3>
-                        </div>
-                        <div class="post_content">
-                            <ul>
-                                <li type="decimal">Identifica en donde se clasifica tu proyecto</li>
-                                <li type="decimal">Es de:
-                                    Innovación y desarrollo
-                                    Productivos
-                                    Ambientales</li>
-                                <li type="decimal">Fondos Dependiendo cual haya escogido</li>
-                                <li type="decimal">Si se necesita RENIECYT ->Inscribite (depende de la convocatoria)</li>
-                                <li type="decimal">Someter el proyecto: Envío de propuesta al Fondo para su valoración</li>
-                                <li type="decimal">Esperar Dictamen: Valoración de la propuesta por el consejo evaluador del fondo.</li>
-                                <li type="decimal">Formalizar el Recurso: En caso de ser beneficiado, se tiene que formalizar el
-                                    recurso a través de un convenios de asignación de recuersos</li>
-                                <li type="decimal">Obternción de Recurso: Deposito del recurso a una cuenta de la empresa destinada
-                                    para el proyecto.</li>
-                                <li type="decimal">Ejecución del Proyecto: Desarrollo de las actividades propuestas en el proyecto.</li>
-                                <li type="decimal">Terminación y cierre del Proyecto: Exposición de resultados y obtención de carta
-                                    finiquito del proyecto.</li>
-                            </ul>
-                        </div>
-                    </article>
                     </article>
                 </div>
             </div>
