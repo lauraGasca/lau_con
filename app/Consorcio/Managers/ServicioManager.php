@@ -8,7 +8,7 @@ class ServicioManager extends BaseManager
         $rules = array(
             'nombre'        =>    'required|max:100|unique:servicios,nombre',
             'resumen'       =>    'max:200',
-            'descripcion'   =>    'required|max:1000',
+            'descripcion'   =>    'required',
             'imagen'        =>    'required'
         );
 

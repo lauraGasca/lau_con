@@ -40,7 +40,7 @@
                 <tbody>
                     @foreach($convocatorias as $convocatoria)
                         <tr>
-                            <td>{{ HTML::link('convocatorias/'.substr(strip_tags(trim(str_replace(' ', '-', $convocatoria->nombre), '-')), 0, 100).'/'.$convocatoria->id, $convocatoria->nombre) }}</td>
+                            <td>{{ HTML::link('convocatorias/'.substr(strip_tags(trim(str_replace('/', '-',str_replace(' ', '-', $convocatoria->nombre)), '-')), 0, 100).'/'.$convocatoria->id, $convocatoria->nombre) }}</td>
                             @if($convocatoria->estatus==1)
                                 <td><span class="check"></span></td>
                             @else

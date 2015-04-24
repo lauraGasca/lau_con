@@ -12,7 +12,7 @@
             </div>
             <div class="hgroup_subtitle animated bounceInUp skincolored">
                 <div class="container">
-                    <p>Conócenos más..... El consorcio comienza...</p>
+                    <p>Con&oacute;cenos m&aacute;s</p>
                 </div>
             </div>
         </div>
@@ -54,9 +54,6 @@
                     <h3><strong>Estructura del Consorcio del Conocimiento</strong></h3><br/>
                     {{ HTML::image('images/consejo-estructura.png') }}
                     <br/><br/>
-                    <p>En estructura operativa se encuentra:</p>
-                    <br/>
-                    <p><strong>Operaci&oacute;n</strong></p>
                     <p align="justify">Contamos con un Consejo Consultivo Empresarial conformado por
                         empresarios líderes en los sectores económicos de la regi&oacute;n,  y un Consejo
                         T&eacute;cnico formado por destacados especialistas de Instituciones de Educaci&oacute;n
@@ -101,7 +98,7 @@
                         <li style="margin-left: 30px; list-style-type: circle;">Convocatoria de Bonos para la transferencia y comercialización del conocimiento.</li>
                         <li style="margin-left: 30px; list-style-type: circle;">Convocatoria de bonos para la innovación a través de las Oficinas de Transferencia de Conocimiento.</li>
                     <li>Fondo Sectorial  Sener – Conacyt /Sustentabilidad Energ&eacute;tica.</li>
-                    <li>Fomento a las iniciativas a la innovaci&oacute;n del Instituto Nacional del Emprendedor (INADEM)./li>
+                    <li>Fomento a las iniciativas a la innovaci&oacute;n del Instituto Nacional del Emprendedor (INADEM).</li>
                     <li>Desarrollo de proveedores (INADEM).</li>
                     <li>Escalamiento productivo (INADEM).</li>
                     <li>Desarrollo y Fortalecimiento de oferta exportable (INADEM).</li>

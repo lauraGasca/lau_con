@@ -78,6 +78,7 @@ class SistemaController extends BaseController
                 $message->to('ginaric218@hotmail.com');
                 $message->to('antonio.tirado023@gmail.com');
                 $message->to('vjamaica@conconocimiento.org.mx');
+                $message->to('antonio.tr@conconocimiento.org.mx');
             }
         );
         return Redirect::back()->with(array('confirm' => 'Gracias por contactarnos.'));

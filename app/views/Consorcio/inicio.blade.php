@@ -62,15 +62,16 @@
                 <h2 class="section_header fancy centered">Alianzas Estrat&eacute;gicas
                     <small>Contamos con alianzas estrat&eacute;gicas para la cooperaci&oacute;n mutua en temas de innovaci&oacute;n y transferencia de Tecnolog&iacute;a.</small></h2>
                 <div class="clients_list">
-                    <a href="#"><img src="{{url('images/portfolio/logo_tecno.png')}}" alt="client" height="120px"></a>
-                    <a href="#"><img src="{{url('images/portfolio/uniguanajuato.jpg')}}" alt="client" height="120px"></a>
-                    <a href="#"><img src="{{url('images/portfolio/caname.jpg')}}" alt="client" height="120px"></a>
-                    <a href="#"><img src="{{url('images/portfolio/crode.jpg')}}" alt="client" height="120px"></a>
-                    <a href="#"><img src="{{url('images/portfolio/logo_inifap_uruapan.gif')}}" alt="client" height="120px"></a>
-                    <a href="#"><img src="{{url('images/portfolio/IAT.jpg')}}" alt="client" height="120px"></a>
-                    <a href="#"><img src="{{url('images/portfolio/incuba.png')}}" alt="client" height="120px"></a>
-                    <a href="#"><img src="{{url('images/portfolio/SSc.png')}}" alt="client" height="120px"></a>
-                    <a href="#"><img src="{{url('images/portfolio/anpic.jpeg')}}" alt="client" height="120px"></a>
+                    <a target="_blank"  href="http://www.caname.org.mx/">{{ HTML::image('images/portfolio/caname.png', 'Caname', ['height'=>"120px"]) }}</a>
+                    <a target="_blank"  href="http://www.celayasalvatierra.ugto.mx/">{{ HTML::image('images/portfolio/Universidad de Guanajuato Celaya- Salvatierra.png', 'Universidad de Guanajuato', ['height'=>"120px"]) }}</a>
+                    <a target="_blank"  href="http://www.upgto.edu.mx/">{{ HTML::image('images/portfolio/Universidad Politécnica de Guanajuato.png', 'Universidad Politécnica de Guanajuato', ['height'=>"70px"]) }}</a>
+                    <a target="_blank"  href="http://www.upjr.edu.mx/">{{ HTML::image('images/portfolio/Universidad Politécnica de Juventino Rosas.png', 'Universidad Politécnica de Juventino Rosas', ['height'=>"120px"]) }}</a>
+                    <a target="_blank"  href="http://itcelaya.edu.mx/">{{ HTML::image('images/portfolio/logo_tecno.png', 'ITC', ['height'=>"120px"]) }}</a>
+                    <a target="_blank"  href="http://www.ptsanmiguelense.com/2014/">{{ HTML::image('images/portfolio/Parque Tecnológico Sanmiguelense.png', 'Parque Tecnológico Sanmiguelense', ['height'=>"120px"]) }}</a>
+                    <a target="_blank"  href="http://www.inifap.gob.mx/SitePages/default.aspx">{{ HTML::image('images/portfolio/inifap.png', 'Inifap', ['height'=>"120px"]) }}</a>
+                    <a target="_blank"  href="http://www.cicata.ipn.mx/Paginas/Inicio.aspx">{{ HTML::image('images/portfolio/Cicata.png', 'Cicata', ['height'=>"120px"]) }}</a>
+                    <a target="_blank"  href="http://www.anpic.com/sitio/esp/index.php">{{ HTML::image('images/portfolio/Anpic.png', 'Anpic', ['height'=>"120px"]) }}</a>
+                    <a target="_blank"  href="http://www.crodecelaya.edu.mx/">{{ HTML::image('images/portfolio/Crode2.png', 'CRODE', ['height'=>"120px"]) }}</a>
                 </div>
             </div>
         </div><br/>
@@ -78,11 +79,11 @@
             <div class="container">
                 <h2 class="section_header fancy centered">Fondos o Instituciones con quienes trabajamos</h2>
                 <div class="clients_list">
-                    <a href="#"><img src="{{url('images/clients/concyteg.gif')}}" alt="client" height="60px"></a>
-                    <a href="#"><img src="{{url('images/clients/logo_conacyt.png')}}" alt="client" height="60px"></a>
-                    <a href="#"><img src="{{url('images/clients/cdti-logo.png')}}" alt="client" height="60px"></a>
-                    <a href="#"><img src="{{url('images/clients/logoSE_hoz.png')}}" alt="client" height="60px"></a>
-                    <a href="#"><img src="{{url('images/clients/inadem_campamento.png')}}" alt="client" height="60px"></a>
+                    <a target="_blank"  href="http://concyteg.gob.mx/">{{ HTML::image('images/clients/concyteg.gif', 'concyteg', ['height'=>"80px"]) }}</a>
+                    <a target="_blank"  href="http://www.conacyt.mx/">{{ HTML::image('images/clients/logo_conacyt.png', 'conacyt', ['height'=>"80px"]) }}</a>
+                    <a target="_blank"  href="https://www.cdti.es/">{{ HTML::image('images/clients/cdti-logo.png', 'cdti', ['height'=>"80px"]) }}</a>
+                    <a target="_blank"  href="http://www.economia.gob.mx/">{{ HTML::image('images/clients/logoSE_hoz.png', 'Secretaria de Economia', ['height'=>"80px"]) }}</a>
+                    <a target="_blank"  href="https://www.inadem.gob.mx/">{{ HTML::image('images/clients/inadem_campamento2.png', 'Caname', ['height'=>"80px"]) }}</a>
                 </div>
             </div>
         </div>

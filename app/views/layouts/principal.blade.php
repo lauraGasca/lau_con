@@ -55,7 +55,7 @@
                         <li
                         @section('glosario')
                             @show
-                            style="margin: 15px 0px;">{{link_to('glosario', 'Obtener Recursos')}}</li>
+                            style="margin: 15px 0px;">{{link_to('gestion-proyectos', 'Gesti&oacute;n de Proyectos')}}</li>
                         <li
                         @section('convocatirias')
                                 @show

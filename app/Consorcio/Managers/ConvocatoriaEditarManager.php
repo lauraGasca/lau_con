@@ -8,8 +8,8 @@ class ConvocatoriaEditarManager extends BaseManager
 
         $rules = array(
             'nombre'        =>    'required|max:200|unique:convocatorias,nombre,'.$this->entity->id,
-            'objetivo'      =>    'required|max:1000',
-            'dirigido'      =>    'required|max:1000',
+            'objetivo'      =>    'required',
+            'dirigido'      =>    'required',
             'estatus'       =>    'required'
         );
 
